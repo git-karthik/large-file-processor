@@ -1,0 +1,33 @@
+{
+  "name": "large-file-processor",
+  "version": "1.0.0",
+  "description": "Process large files in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-karthik/large-file-processor.git"
+  },
+  "keywords": [
+    "zip",
+    "unzip",
+    "csv",
+    "chunks",
+    "split"
+  ],
+  "author": "Karthikeyan R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/git-karthik/large-file-processor/issues"
+  },
+  "homepage": "https://github.com/git-karthik/large-file-processor#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "csv-split-stream": "^1.0.2"
+  }
+}
